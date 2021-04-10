@@ -54,10 +54,12 @@
             // 
             // listbox_members
             // 
+            this.listbox_members.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listbox_members.FormattingEnabled = true;
+            this.listbox_members.ItemHeight = 25;
             this.listbox_members.Location = new System.Drawing.Point(6, 45);
             this.listbox_members.Name = "listbox_members";
-            this.listbox_members.Size = new System.Drawing.Size(370, 251);
+            this.listbox_members.Size = new System.Drawing.Size(370, 254);
             this.listbox_members.TabIndex = 0;
             // 
             // textBox_member_name
@@ -134,18 +136,22 @@
             // 
             // listbox_tasks
             // 
+            this.listbox_tasks.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listbox_tasks.FormattingEnabled = true;
+            this.listbox_tasks.ItemHeight = 25;
             this.listbox_tasks.Location = new System.Drawing.Point(6, 45);
             this.listbox_tasks.Name = "listbox_tasks";
-            this.listbox_tasks.Size = new System.Drawing.Size(370, 251);
+            this.listbox_tasks.Size = new System.Drawing.Size(370, 254);
             this.listbox_tasks.TabIndex = 5;
             // 
             // listBox_random_list
             // 
+            this.listBox_random_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox_random_list.FormattingEnabled = true;
+            this.listBox_random_list.ItemHeight = 20;
             this.listBox_random_list.Location = new System.Drawing.Point(12, 417);
             this.listBox_random_list.Name = "listBox_random_list";
-            this.listBox_random_list.Size = new System.Drawing.Size(770, 186);
+            this.listBox_random_list.Size = new System.Drawing.Size(770, 184);
             this.listBox_random_list.TabIndex = 10;
             // 
             // btn_random_assign_task
